@@ -13,7 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
 ## (2) Also get non-open-source specific aspects if available
 $(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)
 
@@ -22,5 +21,4 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/d2vzw/overlay
 
 # Inherit from d2-common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
-
 $(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)

@@ -22,8 +22,7 @@
 #
  
 PRODUCT_PACKAGES := \
-    Stk \
-    Torch
+    Stk
 
 PRODUCT_COPY_FILES := \
     device/samsung/d2vzw/apns-conf.xml:system/etc/apns-conf.xml
@@ -42,8 +41,5 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/d2vzw/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_d2vzw
 PRODUCT_DEVICE := d2vzw
-PRODUCT_BRAND := Verizon
-PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SCH-I535
+PRODUCT_NAME := liquid_d2vzw
