@@ -81,7 +81,6 @@ $(KEXEC_BOOT_OTA_PACKAGE_TARGET) : \
 	@echo "Package kexec-boot OTA: $@"
 	$(hide) ./device/samsung/d2vzw/kexec-boot/ota_from_target_files -v \
 	       -p $(HOST_OUT) \
-	       --backup=false \
 	       --override_device=auto \
 	       $(BUILT_KEXEC_BOOT_FILES_PACKAGE) $@
 
