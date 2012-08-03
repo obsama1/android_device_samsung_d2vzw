@@ -65,7 +65,7 @@ ro.cdma.data_retry_config=default_randomization=2000,0,0,120000,180000,540000,96
 ro.cdma.otaspnumschema=SELC,1,80,99
 ro.ril.hsxpa=1
 ro.ril.gprsclass=10
-ro.telephony.default_network=4
+ro.telephony.default_network=8
 keyguard.no_require_sim=true
 DEVICE_PROVISIONED=1
 telephony.lteOnCdmaDevice=1
