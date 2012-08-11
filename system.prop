@@ -79,8 +79,8 @@ persist.radio.snapshot_disabled=1
 
 # system props for dalvik heapsize
 dalvik.vm.heapsize=256m
-dalvik.vm.heapstartsize=8m
-dalvik.vm.heapgrowthlimit=64m
+dalvik.vm.heapstartsize=16m
+dalvik.vm.heapgrowthlimit=128m
 
 # system props for qcom display
 ro.cwm.enable_key_repeat=true

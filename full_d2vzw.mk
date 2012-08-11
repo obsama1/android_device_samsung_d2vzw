@@ -11,33 +11,21 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
- 
 #
-# This file is the build configuration for a full Android
-# build for maguro hardware. This cleanly combines a set of
-# device-specific aspects (drivers) with a device-agnostic
-# product configuration (apps). Except for a few implementation
-# details, it only fundamentally contains two inherit-product
-# lines, full and maguro, hence its name.
-#
- 
-PRODUCT_PACKAGES := \
-    Stk
 
+# apn
 PRODUCT_COPY_FILES := \
     device/samsung/d2vzw/apns-conf.xml:system/etc/apns-conf.xml
 
-# KEXEC-specific options
+# kexec
 PRODUCT_PACKAGES += \
     kexec \
     kexec-boot.zip \
     hijack.sh
 
-# Inherit from those products. Most specific first.
+# telephony
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from d2vzw device
+
+# device
 $(call inherit-product, device/samsung/d2vzw/device.mk)
 
-# Set those variables here to overwrite the inherited values.
-PRODUCT_DEVICE := d2vzw
-PRODUCT_NAME := liquid_d2vzw

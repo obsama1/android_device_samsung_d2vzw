@@ -14,13 +14,12 @@
 # limitations under the License.
 #
 
-## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)
-
-## overlays
+# overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2vzw/overlay
 
-# Inherit from d2-common
+# common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)
 
+# vendor
 $(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)
+

@@ -1,8 +1,8 @@
-# phone
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
-
 # device
 $(call inherit-product, device/samsung/d2vzw/full_d2vzw.mk)
+
+# phone
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # products
 PRODUCT_DEVICE := d2vzw
@@ -21,6 +21,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="d2vzw-user 4.0.4 IMM76D I535VRALF2 release-keys" \
     BUILD_FINGERPRINT="Verizon/d2vzw/d2vzw:4.0.4/IMM76D/I535VRALF2:user/release-keys"
 
-# media
-PRODUCT_COPY_FILES += \
-    vendor/liquid/prebuilt/common/media/xhdpi/bootanimation.zip:system/media/bootanimation.zip
