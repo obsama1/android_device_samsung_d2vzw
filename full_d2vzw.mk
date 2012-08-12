@@ -13,7 +13,7 @@
 # limitations under the License.
 #
 
-# apn
+# apns
 PRODUCT_COPY_FILES := \
     device/samsung/d2vzw/apns-conf.xml:system/etc/apns-conf.xml
 
