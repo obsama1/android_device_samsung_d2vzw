@@ -19,6 +19,7 @@
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
 #
+
 # inherit from common D2
 -include device/samsung/d2-common/BoardConfigCommon.mk
 

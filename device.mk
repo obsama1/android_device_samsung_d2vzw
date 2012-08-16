@@ -22,4 +22,3 @@ $(call inherit-product, device/samsung/d2-common/d2-common.mk)
 
 # vendor
 $(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)
-

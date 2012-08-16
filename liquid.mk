@@ -1,8 +1,8 @@
 # device
 $(call inherit-product, device/samsung/d2vzw/full_d2vzw.mk)
 
-# phone
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+# cdma
+$(call inherit-product, vendor/liquid/config/cdma_phone.mk)
 
 # nfc
 $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
