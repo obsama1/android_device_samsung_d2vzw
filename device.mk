@@ -16,6 +16,8 @@
 
 # overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2vzw/overlay
+## common overlays
+DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-cdma
 
 # common
 $(call inherit-product, device/samsung/d2-common/d2-common.mk)

@@ -16,8 +16,7 @@
 
 # packages
 PRODUCT_PACKAGES := \
-    Stk \
-    Torch
+    Stk
 
 # telephony
 # Inherit from those products. Most specific first.
@@ -25,3 +24,4 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # device
 $(call inherit-product, device/samsung/d2vzw/device.mk)
+

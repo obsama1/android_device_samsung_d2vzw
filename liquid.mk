@@ -43,3 +43,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_VERSION_TAGS=release-keys \
     PRIVATE_BUILD_DESC="d2vzw-user 4.0.4 IMM76D I535VRALF2 release-keys" \
     BUILD_FINGERPRINT="Verizon/d2vzw/d2vzw:4.0.4/IMM76D/I535VRALF2:user/release-keys"
+
