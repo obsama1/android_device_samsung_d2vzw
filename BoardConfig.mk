@@ -24,6 +24,5 @@
 TARGET_OTA_ASSERT_DEVICE := d2vzw
 
 # kernel
-TARGET_KERNEL_SOURCE        := kernel/samsung/d2
 TARGET_KERNEL_CONFIG        := cyanogen_d2vzw_defconfig
 
