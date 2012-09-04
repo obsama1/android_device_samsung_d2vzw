@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2012 The LiquidSmooth Project
+# Copyright (C) 2011 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,13 @@
 # limitations under the License.
 #
 
+## (2) Also get non-open-source specific aspects if available
+$(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)
+
 # overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2vzw/overlay
-## common overlays
+
+# cdma
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-cdma
 
 # common
