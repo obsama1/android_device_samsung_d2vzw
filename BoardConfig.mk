@@ -31,5 +31,4 @@ TARGET_OTA_ASSERT_DEVICE := d2vzw
 
 # kernel
 TARGET_KERNEL_CONFIG        := cyanogen_d2vzw_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7.2
 
