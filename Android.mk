@@ -15,15 +15,9 @@
 # limitations under the License.
 #
 
-# overlay
-DEVICE_PACKAGE_OVERLAYS += device/samsung/d2vzw/overlay
+LOCAL_PATH := $(call my-dir)
 
-# common
-$(call inherit-product, device/samsung/d2-common/d2-common.mk)
-
-# telephony
-DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-cdma
-
-# vendor
-$(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)
+ifeq ($(TARGET_BOARD_PLATFORM),d2vzw)
+    include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif
 
