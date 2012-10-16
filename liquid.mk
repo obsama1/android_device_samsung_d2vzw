@@ -34,11 +34,11 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.d2vzw.$(shell date +%m%d%y).$
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=I535VRALG7 \
+    BUILD_NUMBER=I535VRALHE \
     PRODUCT_NAME=d2vzw \
     TARGET_DEVICE=d2vzw \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="d2vzw-user 4.0.4 IMM76D I535VRALG7 release-keys" \
-    BUILD_FINGERPRINT="Verizon/d2vzw/d2vzw:4.0.4/IMM76D/I535VRALG7:user/release-keys"
+    PRIVATE_BUILD_DESC="d2vzw-user 4.0.4 IMM76D I535VRALHE release-keys" \
+    BUILD_FINGERPRINT="Verizon/d2vzw/d2vzw:4.0.4/IMM76D/I535VRALHE:user/release-keys"
 
