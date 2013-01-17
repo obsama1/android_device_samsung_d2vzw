@@ -26,4 +26,3 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-cdma
 
 # vendor
 $(call inherit-product-if-exists, vendor/samsung/d2vzw/d2vzw-vendor.mk)
-
