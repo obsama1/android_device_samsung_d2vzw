@@ -21,9 +21,6 @@ $(call inherit-product, device/samsung/d2vzw/full_d2vzw.mk)
 # phone
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
-# samsung
-$(call inherit-product, vendor/liquid/config/common_sgs.mk)
-
 # telephony
 $(call inherit-product, vendor/liquid/config/common_cdma.mk)
 
