@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2012 The CyanogenMod Project
-# Copyright (C) 2012 The LiquidSmooth Project
+# Copyright (C) 2012 The Carbon Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/d2vzw/prebuilt/common/etc/apns-conf-vzw.xml:system/etc/apns-conf.xml
 
 # product
-PRODUCT_NAME := liquid_d2vzw
+PRODUCT_NAME := carbon_d2vzw
 PRODUCT_DEVICE := d2vzw
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
