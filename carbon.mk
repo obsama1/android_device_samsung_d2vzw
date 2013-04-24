@@ -15,6 +15,9 @@
 # limitations under the License.
 #
 
+# OVERLAY_TARGET adds overlay asset source
+OVERLAY_TARGET := pa_i9300
+
 # device
 $(call inherit-product, device/samsung/d2vzw/full_d2vzw.mk)
 
