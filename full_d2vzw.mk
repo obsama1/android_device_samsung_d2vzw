@@ -21,10 +21,6 @@ $(call inherit-product, device/samsung/d2vzw/device.mk)
 # telephony
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# VZW APN List
-PRODUCT_COPY_FILES += \
-    device/samsung/d2vzw/prebuilt/common/etc/apns-conf-vzw.xml:system/etc/apns-conf.xml
-
 # product
 PRODUCT_NAME := carbon_d2vzw
 
