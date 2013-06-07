@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
 
 # product
 PRODUCT_NAME := carbon_d2vzw
+
+# Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := d2vzw
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
